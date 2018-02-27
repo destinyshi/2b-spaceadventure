@@ -28,7 +28,7 @@ function updateScene(s) {
 			document.getElementById("btn2").setAttribute("onclick", "updateScene('s5')");			
 			break;
 		case"s2":
-			document.getElementById("storyline").innerHTML ="<p>Harold: How many light years is that from Earth?</p><p>Base: About seven light years away. This means it will take us apporximately a week to get to your location.</p><p>Harold: Ok, I think I had enough supplies to survive, but I do need some Isotope Base 23 becasue my supply of it is running out.</p><p>Base: What would happen if you didn't have it?</p><p>Harold: Isotope Base 23 is the thing that keeps me living. Base: On your planet, it is referred to as food</p><p>Harold: Should I go find some more food or should I start making a shelter?</p>";
+			document.getElementById("storyline").innerHTML ="<p>Harold: How many light years is that from Earth?</p><p>Base: About seven light years away. This means it will take us apporximately a week to get to your location.</p><p>Harold: Ok, I think I had enough supplies to survive, but I do need some Isotope Base 23 because my supply of it is running out.</p><p>Base: What would happen if you didn't have it?</p><p>Harold: Isotope Base 23 is the thing that keeps me living. Base: On your planet, it is referred to as food</p><p>Harold: Should I go find some more food or should I start making a shelter?</p>";
 			//change btn1
 			document.getElementById("btn1").innerHTML ="Food";
 			document.getElementById("btn1").setAttribute("onclick", "updateScene('s4')");
@@ -37,7 +37,7 @@ function updateScene(s) {
 			document.getElementById("btn2").setAttribute("onclick", "updateScene('s5')");
 			break;
 		case"s3":
-			document.getElementById("storyline").innerHTML ="<p>Base: How many moons are there on that planet? How long is each day?</p><p>Harold: There are about seven moons and it takes about 37 hours to get through one day. The planet has no living beings except for some scattered plants.</p><p>Base: How's your food supply?</p><p>Harold: I am surviving only only on a few berries and mangoes right now, but I am starting to lose my supply of it.</p><p>Harold: I'll get more food or I'll go creater a shelter</p>";
+			document.getElementById("storyline").innerHTML ="<p>Base: How many moons are there on that planet? How long is each day?</p><p>Harold: There are about seven moons and it takes about 37 hours to get through one day. The planet has no living beings except for some scattered plants.</p><p>Base: How's your food supply?</p><p>Harold: I am surviving only only on a few berries and mangoes right now, but I am starting to lose my supply of it.</p><p>Harold: I'll get more food or I'll go create a shelter</p>";
 			//change btn1
 			document.getElementById("btn1").innerHTML ="Food";
 			document.getElementById("btn1").setAttribute("onclick", "updateScene('s4')");
@@ -46,7 +46,7 @@ function updateScene(s) {
 			document.getElementById("btn2").setAttribute("onclick", "updateScene('s5')");
 			break;
 		case"s4":
-			document.getElementById("storyline").innerHTML ="<p>Base: Apparently, that planet has an abundace of nagoes, burp causing berries, and fart causing oranges</p><p>Harold: Ok, got it.</p><p>Base: We should be able to get there in about five Earth days.<p>Harold: I'm going to go to sleep, or go to find some wood.</p>";
+			document.getElementById("storyline").innerHTML ="<p>Base: Apparently, that planet has an abundace of nagoes, burp causing berries, and fart causing oranges</p><p>Harold: Ok, got it.</p><p>Base: We should be able to get there in about five Earth days.<p>Harold: I'm going to go to sleep, or go find some wood.</p>";
 			//change btn1
 			document.getElementById("btn1").innerHTML ="Sleep";
 			document.getElementById("btn1").setAttribute("onclick", "updateScene('s6')");
